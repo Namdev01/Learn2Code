@@ -3,7 +3,7 @@ import Templete from '../Template/Templete'
 const Atcoder = () => {
     return (
         <>
-            <Templete value="at_coder"/>
+            <Templete value="at_coder" key={4}/>
         </>
     )
 }

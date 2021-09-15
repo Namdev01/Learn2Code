@@ -3,7 +3,7 @@ import Templete from '../Template/Templete'
 const Cc = () => {
     return (
         <>
-            <Templete value="code_chef"/>
+            <Templete value="code_chef" key={2}/>
         </>
     )
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React  from 'react'
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -6,19 +6,8 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-const Templete = ({ value}) => {
-    const [content, SetContent] = useState([]);
-    let disposed = false;
-    useEffect(() => {
-        (async () => {
-            fetch(`https://kontests.net/api/v1/${value}`)
-                .then((response) => response.json())
-                .then((result) => {
-                    SetContent(result);
-                })
-        })()
-        return () => disposed = true
-    },[disposed]);
+const Temp1 = ({ content}) => { 
+    console.log(content);
     return (
         <Paper elevation={3} className="paper">
             {content.length > 0 ?
@@ -58,4 +47,4 @@ const Templete = ({ value}) => {
     )
 }
 
-export default Templete
+export default Temp1

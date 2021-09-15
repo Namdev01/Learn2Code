@@ -3,7 +3,7 @@ import Templete from '../Template/Templete'
 const Leetcode = () => {
     return (
         <>
-            <Templete value="leet_code"/>
+            <Templete value="leet_code" key={3}/>
         </>
     )
 }

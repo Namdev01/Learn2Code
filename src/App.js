@@ -6,7 +6,6 @@ import Cf from './Sites/Codeforces/Cf'
 import Cc from './Sites/Codechef/cc'
 import Leetcode from './Sites/Leetcode/leetcode'
 import Atcoder from './Sites/Atcoder/atcoder'
-import Home from './Components/Home'
 const App = () => {
   return (
     <>
