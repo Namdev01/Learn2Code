@@ -6,6 +6,7 @@ import Cf from './Sites/Codeforces/Cf'
 import Cc from './Sites/Codechef/cc'
 import Leetcode from './Sites/Leetcode/leetcode'
 import Atcoder from './Sites/Atcoder/atcoder'
+import Resource from './Sites/Resource/Resource'
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/Cc" component={Cc} />
           <Route path="/Leetcode" component={Leetcode} />
           <Route path="/Atcoder" component={Atcoder} />
+          <Route path="/Resource" component={Resource} />
           <Route path="/" component={Cf} />
         </Switch>
       </BrowserRouter>

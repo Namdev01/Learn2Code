@@ -7,6 +7,7 @@ const Header = () => {
             <Link to='Cc'><button className='site'>Codechef</button> </Link>
             <Link to='Leetcode'><button className='site'>Leetcode</button> </Link>
             <Link to='Atcoder'><button className='site'>Atcoder</button> </Link>
+            <Link to='Resource'><button className='site'>Resource</button> </Link>
         </div>
     )
 }
