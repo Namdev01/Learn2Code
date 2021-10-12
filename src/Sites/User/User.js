@@ -8,7 +8,7 @@ const User = () => {
             .then((response) => response.json())
             .then((data) => {
                 alert('Enter a valid handle name');
-                console.log(data);
+                 console.log(data);
             })
         }
     }
