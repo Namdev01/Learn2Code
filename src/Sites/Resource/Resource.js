@@ -20,7 +20,7 @@ const Resouces = () => {
                             <TableCell align="center">Link</TableCell>
                         </TableRow>
                     </TableHead>
-                    <TableBody>
+                    <TableBody> 
                         {List.map((c) => (
                             <TableRow>
                                 <TableCell align="center">{c['Topic:']}</TableCell>

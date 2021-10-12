@@ -6,6 +6,8 @@ body {
     background: #2d313a;
     /* background: rgb(147, 147, 245); */
 } 
+
+ /* ------------------ Email container style ------------------------ */
 .header{
     display: flex;
     justify-content: center;
@@ -20,6 +22,8 @@ body {
     border-radius: 3px;
     border: 0px solid white;
 }
+
+ /* ------------------ Upcoming Contest or Resouces paper styling ------------------------ */
 .paper{
     margin: 100px 15% 0 15%;
 }
@@ -41,4 +45,43 @@ body {
     align-items: center;
     width: 100%;
     font-size: 2rem;
+}
+
+ /* ------------------ Email container style ------------------------ */
+ .container {
+     border-radius: 5px;
+     background: #f4f4f4;
+     width: 30%;
+     height: 150px;
+     margin: 60px auto;
+}
+@media (max-width: 1000px){
+    .container{
+        width: 60%;
+    }
+}
+.btn {
+    display: block;
+    width: 90px;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    position: relative;
+    bottom: 0;
+}
+.btn:hover {
+    background: #444;
+}
+.input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 20px 0 0 20px;
+} 
+.show{
+    display: none;
 }
