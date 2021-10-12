@@ -18,6 +18,7 @@ const Templete = ({ value}) => {
                 })
         })()
         return () => disposed = true
+        // eslint-disable-next-line
     },[disposed]);
     return (
         <Paper elevation={3} className="paper">
